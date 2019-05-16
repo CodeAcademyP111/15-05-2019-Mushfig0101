@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
+</head>
+
+<body>
+      
+    <div id="nav" class="navLinks">
+
+        <ul>
+            <li>
+                    <a href="javascript:void(0)" class="closing" onclick="closeNav()">&times;</a>
+            <li>
+                <a href="" class="linkcolor"> Cool stuff</a>
+            </li>
+            <li>
+                <a href="" class="linkcolor"> Random feature</a>
+            </li>
+            <li>
+                <a href="" class="linkcolor">Team feature</a>
+            </li>
+            <li>
+                <a href="" class="linkcolor">Stuff for developers</a>
+            </li>
+            <li>
+                <a href="" class="linkcolor">Another one</a>
+            </li>
+            <li>
+                <a href="" class="linkcolor">Last time</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <h2><b>Tis is Sidebar</b></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ipsum sed vel quasi <br>
+        nisi nobis necessitatibus explicabo perferendis laboriosam,tenetur quam natus est distinctio?<br>
+          Repellat quas necessitatibus dolorum eos consequuntur.</p>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    
+    <script>  function openNav() {
+            document.getElementById("nav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("nav").style.width = "0";
+          }
+         </script>
+
+</body>
+
+</html>
